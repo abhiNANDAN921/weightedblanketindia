@@ -40,7 +40,8 @@ const BlogPostTemplate = ({ data: { previous, next, post } }) => {
             <GatsbyImage
               image={featuredImage.data}
               alt={featuredImage.alt}
-              style={{ marginBottom: 50 }}
+              style={{ marginBottom: 50} }
+              
             />
           )}
         </header>
@@ -68,7 +69,7 @@ const BlogPostTemplate = ({ data: { previous, next, post } }) => {
         >
           <li>
             {previous && (
-              <Link to={previous.uri} rel="prev">
+              <Link  className="previ" to={previous.uri} rel="prev">
                 ← {parse(previous.title)}
               </Link>
             )}
@@ -76,7 +77,7 @@ const BlogPostTemplate = ({ data: { previous, next, post } }) => {
 
           <li>
             {next && (
-              <Link to={next.uri} rel="next">
+              <Link className="next" to={next.uri} rel="next">
                 {parse(next.title)} →
               </Link>
             )}
