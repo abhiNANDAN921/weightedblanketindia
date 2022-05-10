@@ -10,9 +10,9 @@ module.exports = {
 
   siteMetadata: {
     title: 'All post | Best weighted blanket in india',
-    siteUrl: 'https://wordpress.weightedblanketindia.com/',
+    siteUrl: 'https://weightedblanketindiamain.gtsb.io/',
   },
-  plugins: ['gatsby-plugin-sitemap'],
+
   /**
    * Adding plugins to this array adds them to your Gatsby site.
    *
@@ -77,6 +77,7 @@ module.exports = {
     // See https://www.gatsbyjs.com/plugins/gatsby-plugin-react-helmet/?=gatsby-plugin-react-helmet
     `gatsby-plugin-react-helmet`,
     'gatsby-plugin-postcss',
+      plugins: ['gatsby-plugin-sitemap'],
 
     /**
      * this (optional) plugin enables Progressive Web App + Offline functionality
