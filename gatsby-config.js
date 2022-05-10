@@ -77,7 +77,7 @@ module.exports = {
     // See https://www.gatsbyjs.com/plugins/gatsby-plugin-react-helmet/?=gatsby-plugin-react-helmet
     `gatsby-plugin-react-helmet`,
     'gatsby-plugin-postcss',
-      plugins: ['gatsby-plugin-sitemap'],
+     'gatsby-plugin-sitemap',
 
     /**
      * this (optional) plugin enables Progressive Web App + Offline functionality
