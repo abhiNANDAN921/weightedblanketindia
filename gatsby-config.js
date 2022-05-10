@@ -10,7 +10,7 @@ module.exports = {
 
   siteMetadata: {
     title: 'All post | Best weighted blanket in india',
-    siteUrl: 'https://weightedblanketindiamain.gatsbyjs.io',
+    siteUrl: 'https://wordpress.weightedblanketindia.com/',
   },
   plugins: ['gatsby-plugin-sitemap'],
   /**
