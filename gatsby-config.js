@@ -9,9 +9,10 @@
 module.exports = {
 
   siteMetadata: {
-    title: 'All post | Best weighted blanket in india',
-    siteUrl: 'https://weightedblanketindiamain.gtsb.io/',
-  },
+  // If you didn't use the resolveSiteUrl option this needs to be set
+  siteUrl: `https://weightedblanketindiamain.gtsb.io/`,
+},
+
 
   /**
    * Adding plugins to this array adds them to your Gatsby site.
